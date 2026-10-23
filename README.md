@@ -13,23 +13,23 @@ by *Andrew W. Trask (Manning Shelter Island)*
 
 The project is developed as part of the **Deep Learning** course at **Telkom University**, focusing on understanding the fundamental principles of deep learning through conceptual analysis, mathematical intuition, and hands-on Python implementation.
 
-***Status: Work in Progress.***
+**Status:** *Work in Progress.*
 
 ---
 
 # Project Overview
 
-This repository provides a structured learning resource that integrates theoretical understanding with practical implementations, designed to enhance comprehension and application of deep learning concepts in academic and practical contexts.
+This repository provides a structured learning resource that combines theoretical understanding with practical implementations to explore the fundamental principles and architectures of deep learning.
 
-Each chapter is documented through **Python‑based Jupyter Notebooks** containing summaries, objectives, theoretical explanations, code reproductions, annotated implementations, result interpretations, and discussions to support both conceptual clarity and applied experimentation.
+Each chapter is documented through **Python‑based Jupyter Notebooks** containing chapter summaries, learning objectives, theoretical explanations, code reproductions, code explanations, result interpretations, and discussions, where applicable.
 
-The content follows the original book’s organization while adding explanatory notes and demonstrations to clarify how neural networks learn, optimize parameters, make predictions, and process diverse data representations effectively.
+The content follows the original book’s organization, while adding explanatory notes and demonstrations to clarify how neural networks learn, optimize parameters, make predictions, and process diverse data representations effectively.
 
 ---
 
 # Contents
 
-Each chapter is documented in **its own Jupyter Notebook** and includes:
+Each chapter is documented in **its own Jupyter Notebook** and includes the following elements, where applicable:
 
 - Chapter summary.
 - Learning objectives.
@@ -39,42 +39,30 @@ Each chapter is documented in **its own Jupyter Notebook** and includes:
 - Result analysis and interpretation.
 - Discussion and conclusion.
 
-The learning progression follows the 16 chapters of the book and covers the following topics:
+The learning progression follows the sixteen chapters of the book:
 
-Fundamental Concepts of Deep Learning: Machine learning principles, supervised and unsupervised learning, and parametric and nonparametric models.
-
-Neural Prediction and Forward Propagation: Building simple neural networks to generate predictions from input data.
-
-Gradient Descent and Neural Learning: Understanding prediction errors, weight updates, learning rates, and parameter optimization.
-
-Multiple Weights and Deep Neural Networks: Extending neural networks to multiple inputs and outputs, matrix operations, and backpropagation.
-
-Neural Network Visualization: Developing intuitive representations of network architectures and their computational relationships.
-
-Regularization and Generalization: Exploring overfitting, early stopping, dropout, and batch gradient descent.
-
-Activation Functions and Probability Modeling: Understanding nonlinear transformations, hidden-layer activations, and output probabilities.
-
-Convolutional Neural Networks (CNNs): Learning how shared weights and convolutional layers identify patterns in structured data.
-
-Natural Language Processing (NLP): Exploring sentiment classification, word embeddings, semantic relationships, and word analogies.
-
-Recurrent Neural Networks (RNNs): Processing variable-length sequences and learning relationships between words and other sequential data.
-
-Automatic Differentiation and Deep Learning Frameworks: Implementing tensors, automatic gradient computation, optimization, and neural network layers from scratch.
-
-Long Short-Term Memory (LSTM): Understanding recurrent learning, character-level language modeling, and the challenges of vanishing and exploding gradients.
-
-Federated Learning and Data Privacy: Exploring decentralized model training, secure aggregation, and homomorphic encryption.
-
-Further Learning and Practical Development: Identifying resources and strategies for continuing the study of deep learning.
+1. **Chapter 01:** Exploratory Data Analysis
+2. **Chapter 02:** Data and Sampling Distributions
+3. **Chapter 03:** Statistical Experiments and Significance Testing
+4. **Chapter 04:** Regression and Prediction
+5. **Chapter 05:** Classification
+6. **Chapter 06:** Statistical Machine Learning
+7. **Chapter 07:** Unsupervised Learning
+8. **Chapter 08:** Exploratory Data Analysis
+9. **Chapter 09:** Data and Sampling Distributions
+10. **Chapter 10:** Statistical Experiments and Significance Testing
+11. **Chapter 11:** Regression and Prediction
+12. **Chapter 12:** Classification
+13. **Chapter 13:** Statistical Machine Learning
+14. **Chapter 14:** Unsupervised Learning
+15. **Chapter 15:** Classification
+16. **Chapter 16:** Statistical Machine Learning
 
 --- 
 
 # Repository Structure
 
-The repository is organized with all chapter notebooks directly in the root directory, while datasets are maintained in a dedicated folder.
-
+``` text
 Grokking-Deep-Learning/
 │
 ├── datasets/
@@ -105,48 +93,34 @@ Grokking-Deep-Learning/
 │
 ├── .gitignore
 └── README.md
-
-***Note:*** *The notebook filenames above follow the book's chapter titles. If any filename in your existing repository differs, update the corresponding entry to match the actual filename.*
+```
 
 --- 
 
-Tools & Libraries
-
-The project uses the following tools and technologies:
+# Tools & Libraries
 
 - Python 3.x
-- Jupyter Notebook
 - Visual Studio Code
+- Jupyter Notebook
 - NumPy
+- Python Standard Library: `math`, `random`, `sys`, `collections.Counter`
 - Git and GitHub
-
-Python and NumPy support the implementation of neural network operations, matrix computations, gradient descent, and other numerical procedures. Jupyter Notebooks provide an interactive environment for combining theoretical explanations, executable code, and result analysis.
-
-The implementation approach emphasizes understanding the underlying mechanics of deep learning rather than relying exclusively on high-level machine learning frameworks.
 
 --- 
 
 # Learning Purpose
 
-This repository is developed as part of the **Deep Learning** course at **Telkom University**.
+This repository is developed for the **Deep Learning** course at **Telkom University** and serves as an academic submission and personal reference for neural network implementation. 
 
-The primary objective is to develop a systematic understanding of deep learning through theoretical study, code reproduction, and practical experimentation.
+It combines conceptual explanations, code reproduction, and Python experiments to examine forward propagation, gradient descent, backpropagation, and neural network architectures. 
 
-By implementing neural networks and examining their computational processes, this project explores how models learn patterns, adjust weights, minimize prediction errors, and generalize to unseen data.
-
-The repository also provides an opportunity to study more advanced architectures, including convolutional neural networks, recurrent neural networks, and long short-term memory networks, alongside emerging approaches to privacy-preserving machine learning.
-
-Ultimately, this project serves as both an academic assignment and a personal learning reference for understanding the principles and practical applications of deep learning.
+Advanced topics include convolutional networks, language models, recurrent neural networks, long short-term memory, and privacy-preserving approaches such as federated learning.
 
 ---
 
 # Usage Notes
 
-GitHub renders Jupyter Notebooks directly in the browser, although the reading experience may vary depending on the complexity of the notebook and its outputs.
-
-For a more complete learning experience, it is recommended to open the notebooks locally using Visual Studio Code or Jupyter Notebook, where code cells can be executed and modified interactively.
-
-Before running a notebook, ensure that Python and the required libraries are installed and that dataset paths are consistent with the repository structure.
+For interactive execution and clearer notebook rendering, **open the chapter files locally in VS Code or Jupyter Notebook** after installing the required Python libraries.
 
 ---
 
@@ -155,10 +129,12 @@ Before running a notebook, ensure that Python and the required libraries are ins
 Trask, A. W. (2019). 
 *Grokking Deep Learning.* Manning Publications.
 
-Original code repository:
+- Original code repository:
+
 https://github.com/iamtrask/grokking-deep-learning
 
-Publisher's book page:
+- Publisher's book page:
+
 https://www.manning.com/books/grokking-deep-learning
 
 ---
