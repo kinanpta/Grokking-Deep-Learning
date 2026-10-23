@@ -41,22 +41,22 @@ Each chapter is documented in **its own Jupyter Notebook** and includes the foll
 
 The learning progression follows the sixteen chapters of the book:
 
-1. **Chapter 01:** Exploratory Data Analysis
-2. **Chapter 02:** Data and Sampling Distributions
-3. **Chapter 03:** Statistical Experiments and Significance Testing
-4. **Chapter 04:** Regression and Prediction
-5. **Chapter 05:** Classification
-6. **Chapter 06:** Statistical Machine Learning
-7. **Chapter 07:** Unsupervised Learning
-8. **Chapter 08:** Exploratory Data Analysis
-9. **Chapter 09:** Data and Sampling Distributions
-10. **Chapter 10:** Statistical Experiments and Significance Testing
-11. **Chapter 11:** Regression and Prediction
-12. **Chapter 12:** Classification
-13. **Chapter 13:** Statistical Machine Learning
-14. **Chapter 14:** Unsupervised Learning
-15. **Chapter 15:** Classification
-16. **Chapter 16:** Statistical Machine Learning
+1. **Chapter 01:** Introducing Deep Learning — Why You Should Learn It
+2. **Chapter 02:** Fundamental Concepts — How Do Machines Learn?
+3. **Chapter 03:** Introduction to Neural Prediction  Forward Propagation
+4. **Chapter 04:** Introduction to Neural Learning — Gradient Descent
+5. **Chapter 05:** Learning Multiple Weights at a Time — Generalizing Gradient Descent 
+6. **Chapter 06:** Building your First Deep Neural Network — Introduction to Backpropagation
+7. **Chapter 07:** How to Picture Neural Network — In your Head and on Paper
+8. **Chapter 08:** Learning Signal and Ignoring Noise — Introduction to Regularization and Batching
+9. **Chapter 09:** Modeling Probabilities and Nonlinearities — Activation Functions
+10. **Chapter 10:** Neural Learning about Edges and Corners — Intro to Convolutional Neural Networks
+11. **Chapter 11:** Neural Networks that Understand Language — King - Man + Woman == ?
+12. **Chapter 12:** Neural Networks that Write like Shakepeare — Recurrent Layers for Variable-Length Data
+13. **Chapter 13:** Introducing Automatic Optimization — Let's Build a Deep Learning Framework
+14. **Chapter 14:** Learning to Write like Shakepeare — Long Short-Term Memory
+15. **Chapter 15:** Deep Learning on Unseen Data — Introducing Federated Learning
+16. **Chapter 16:** Where to Go from Here — A Brief Guide
 
 --- 
 
