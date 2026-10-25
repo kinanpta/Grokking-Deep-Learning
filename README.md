@@ -9,7 +9,7 @@
 This repository contains structured chapter summaries, theoretical explanations, code reproductions, and practical implementations based on the book:
 
 **Grokking Deep Learning**
-by *Andrew W. Trask (Manning Shelter Island)*
+by *Andrew W. Trask (Manning Publications)*
 
 The project is developed as part of the **Deep Learning** course at **Telkom University**, focusing on understanding the fundamental principles of deep learning through conceptual analysis, mathematical intuition, and hands-on Python implementation.
 
